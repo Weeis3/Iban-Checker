@@ -1,6 +1,6 @@
 import string
 
-print('Iban Tarkistin v1.0 (Dont use on actual Ibans this is just a testing script for a iban checker)')
+print('Iban Checker v1.0 (Dont use on actual Ibans this is just a testing script for a iban checker)')
 print('Example of a iban. Country; ' + 'PL', 'Checksum; ' + '52', 'Numbers; ' + '5000 1510 0000 23')
 print('Without the extra stuff: PL52 5000 1510 0000 23')
 while True:
