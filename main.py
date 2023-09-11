@@ -13,7 +13,6 @@ while True:
         print('This should be 2 characters long!')
         break
     ibanin2 = input('Insert iban numbers: ')
-    N = 4
     ibanin = ibanin1 + iban2 + ibanin2
     output = ibanin.translate({ord(c):  None for c in string.whitespace})
     print('Inserted iban: ',output)
